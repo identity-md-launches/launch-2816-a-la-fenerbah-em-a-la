@@ -1,0 +1,50 @@
+{
+  "output": "artifacts/video.mp4",
+  "duration_seconds": 180.0,
+  "width": 1920,
+  "height": 1080,
+  "fps": 24,
+  "decoded_video_frames": 4320,
+  "video_codec": "h264",
+  "pixel_format": "yuv420p",
+  "audio_codec": "aac",
+  "audio_sample_rate": 48000,
+  "audio_channels": 2,
+  "audio_content": "Digital silence; no supplied song",
+  "bytes": 39539501,
+  "sha256": "3e0f366b5765d8b845a61c0f681392699972ad414752870f495ecf7bb3e1ce28",
+  "chapters": 12,
+  "fast_start": true,
+  "full_decode": "passed; ffmpeg -xerror produced no errors",
+  "mp4_atoms": [
+    {
+      "type": "ftyp",
+      "offset": 0,
+      "size": 32
+    },
+    {
+      "type": "moov",
+      "offset": 32,
+      "size": 127078
+    },
+    {
+      "type": "free",
+      "offset": 127110,
+      "size": 8
+    },
+    {
+      "type": "mdat",
+      "offset": 127118,
+      "size": 39412383
+    }
+  ],
+  "visual_qc": "All three accessible reference images inspected; sample composited cards and encoded frame contact sheet inspected. Original jersey marks and PNG crest retained. See README for substantial missing performance/action scenes.",
+  "limitations": [
+    "Reference-based photographic animatic, not a generated live-action music video",
+    "No generative-video capability available",
+    "Interior reference DNS failure; merchandise page HTTP 403",
+    "No Suno audio supplied",
+    "Real exterior image upscaled from 780x470",
+    "No crying or moving supporters, players, flags, goals, management/transfer performances or seated-fan ending"
+  ]
+}
